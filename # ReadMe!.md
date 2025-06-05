@@ -58,7 +58,7 @@ Supports arithmetic, square root, percentage, memory functions, and both mouse a
 
 ## Screenshots
 
-
+![Calculator design and functions](https://github.com/user-attachments/assets/1b0d5e21-25e0-4f1f-a868-fa2734700b1d)
 
 ---
 
