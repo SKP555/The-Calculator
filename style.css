@@ -1,0 +1,87 @@
+/* Center calculator on the page with a background color */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(93, 46%, 36%, 0.623);
+}
+
+/* Calculator container styling */
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+/* Display styling */
+#display {
+    width: 100%;
+    padding: 16px;
+    font-size: 2rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Button grid layout */
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 16px;
+}
+
+/* General button styling */
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+/* Function button styling (AC, DEL, memory, etc.) */
+.func-btn {
+    background-color: hsl(0, 0%, 60%);
+    color: #222;
+}
+.func-btn:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+
+/* Operator button styling (+, -, *, /) */
+.op-btn {
+    background-color: hsl(35, 100%, 55%);
+    color: #fff;
+}
+.op-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+
+/* Equals button styling (same as AC for this design) */
+.eq-btn {
+    background-color: hsl(0, 0%, 60%);
+    color: #222;
+}
+.eq-btn:hover {
+    background-color: hsl(0, 0%, 70%);
+}
